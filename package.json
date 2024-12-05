@@ -1,8 +1,8 @@
 {
   "name": "@converse/desktop",
-  "productName": "Converse Desktop",
+  "productName": "Blink Desktop",
   "version": "10.1.5",
-  "description": "Desktop Jabber/XMPP client based on Converse.js and Electron",
+  "description": "The Blink Desktop Jabber/XMPP client based on Converse.js and Electron",
   "main": "main.js",
   "scripts": {
     "clean": "rm -rf node_modules",
@@ -13,7 +13,7 @@
     "dist:win64": "electron-builder --win --x64",
     "dist:linux64": "electron-builder --linux --x64"
   },
-  "author": "The Converse Desktop Developers",
+  "author": "Blink Team",
   "repository": "https://github.com/conversejs/converse-desktop",
   "keywords": [
     "Jabber",
@@ -31,13 +31,13 @@
     "eslint": "^8.12.0"
   },
   "dependencies": {
-    "converse.js": "^10.1.0",
+    "@flowerappengorg/converse.js": "10.1.9",
     "electron-settings": "^4.0.2",
     "keytar": "^7.9.0"
   },
   "build": {
     "appId": "com.denry.converse-desktop",
-    "productName": "Converse Desktop",
+    "productName": "Blink Desktop",
     "extraFiles": [
       {
         "from": "resources/images/logo.svg",
