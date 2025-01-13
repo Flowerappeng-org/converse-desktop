@@ -1,8 +1,8 @@
 {
   "name": "@converse/desktop",
-  "productName": "Blink Desktop",
+  "productName": "Water Desktop",
   "version": "10.1.5",
-  "description": "The Blink Desktop Jabber/XMPP client based on Converse.js and Electron",
+  "description": "The Water Desktop client based on Converse.js and Electron",
   "main": "main.js",
   "scripts": {
     "clean": "rm -rf node_modules",
@@ -13,7 +13,7 @@
     "dist:win64": "electron-builder --win --x64",
     "dist:linux64": "electron-builder --linux --x64"
   },
-  "author": "Blink Team",
+  "author": "Water Team",
   "repository": "https://github.com/conversejs/converse-desktop",
   "keywords": [
     "Jabber",
@@ -31,13 +31,13 @@
     "eslint": "^8.12.0"
   },
   "dependencies": {
-    "@flowerappengorg/converse.js": "10.1.9",
+    "@flowerappengorg/converse.js": "10.1.11",
     "electron-settings": "^4.0.2",
     "keytar": "^7.9.0"
   },
   "build": {
     "appId": "com.denry.converse-desktop",
-    "productName": "Blink Desktop",
+    "productName": "Water Desktop",
     "extraFiles": [
       {
         "from": "resources/images/logo.svg",
